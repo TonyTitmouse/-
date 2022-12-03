@@ -46,9 +46,7 @@ echo .> templates/index.html
 echo .> todolist/static/todolist/css/style.css
 echo .> README.MD
 echo .> todolist/urls.py
-Подтянем всю статику в папку static нашего проекта
 
-python manage.py collectstatic
 Создаем файл с зависимостями проекта
 
 pip freeze > requirements.txt
